@@ -2,12 +2,13 @@
   "name": "pastebin-lite-express",
   "version": "1.0.0",
   "main": "src/index.js",
-  "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "prisma:generate": "prisma generate",
-    "prisma:push": "prisma db push"
-  },
+"scripts": {
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js",
+  "build": "prisma generate",
+  "prisma:generate": "prisma generate",
+  "prisma:push": "prisma db push"
+},
   "dependencies": {
     "@prisma/client": "^5.20.0",
     "dotenv": "^16.4.5",
